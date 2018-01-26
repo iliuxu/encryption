@@ -1,0 +1,22 @@
+{
+    "name": "iliuxu/encryption",
+    "description": "Secure PHP Encryption Library For AES",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-openssl": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iliuxu\\Encryption\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuxu",
+            "email": "imliuxu@gmail.com"
+        }
+    ]
+}
